@@ -3,6 +3,8 @@
   font-family: "Roboto", sans-serif;
   transition: ease 150ms;
   color: white;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 body {
@@ -13,4 +15,8 @@ body {
 p {
   font-size: 18px;
   line-height: 1.5em;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
