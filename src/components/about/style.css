@@ -1,0 +1,20 @@
+.model {
+  height: 500px;
+  max-width: 350px;
+}
+
+.about {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 450px;
+}
+
+model-viewer {
+  --progress-bar-color: white;
+}

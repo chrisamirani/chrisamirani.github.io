@@ -1,0 +1,15 @@
+.tools {
+  display: flex;
+
+  height: 25px;
+  gap: 10px;
+}
+
+.tool-image {
+  height: 100%;
+  filter: grayscale();
+}
+
+.tools-container {
+  margin: 20px 15px;
+}

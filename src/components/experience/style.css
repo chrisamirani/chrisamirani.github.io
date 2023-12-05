@@ -1,0 +1,47 @@
+summary {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+summary img {
+  width: 80px;
+  filter: grayscale();
+}
+
+details {
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+summary:hover {
+  background: rgba(255, 255, 255, 0.196);
+  cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.system-design {
+  width: 100%;
+}
+
+details p {
+  margin: 20px 15px;
+}
+
+details strong {
+  margin: 20px 15px;
+}
